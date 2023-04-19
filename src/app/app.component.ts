@@ -11,6 +11,15 @@ export class AppComponent {
   serverName = "Server one";
   username = "";
 
+  listItems = [
+    {"id": 1, "valeur": "un"},
+    {"id": 2, "valeur": "deux"},
+    {"id": 3, "valeur": "3"},
+    {"id": 4, "valeur": "4"},
+    {"id": 5, "valeur": "5"},
+    {"id": 6, "valeur": "6"},
+  ];
+
   constructor() {
     setTimeout( ()=>{
       this.allowNewServer = true;

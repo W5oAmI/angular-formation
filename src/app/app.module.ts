@@ -7,6 +7,7 @@ import { ServersComponent } from './servers/servers.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import {WarningAlertComponent} from "./warning-alert/warning-alert.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {AppRoutingModule} from "./app-routing.module";
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
